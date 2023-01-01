@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+main {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: center;
+}
+
+.line {
+    width: 20rem;
+    height: 5px;
+    background: black;
+    border: none;
+    border-radius: 20%;
+    margin: auto;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+#error {
+    color: rgb(241, 62, 35);
+    font-size:  2rem;
+}
+
+#board {
+    /* background: yellow; */
+    width: 28rem;
+    height: 28rem;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 3.11rem;
+    border: 1px solid lightgray;
+    margin: 0 auto;
+
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#digits {
+    /* background: yellow; */
+    width: 28rem;
+    height: 2.8rem;
+    display: flex;
+    gap: 10px;
+}
+
+.numbers {
+    width: 2.8rem;
+    height: 2.8rem;
+    border: 1px solid gray;
+
+    font-size: 1.4rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-selected {
+    background: rgb(166, 165, 165);
+}
+
+.initial-tile {
+    background-color: rgb(193, 190, 190);
+}
+
+.vertical-line {
+    border-right: 2px solid black;
+}
+
+.horizontal-line {
+    border-bottom: 2px solid black;
+}
